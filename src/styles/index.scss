@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+::webkit-scrollbar-thumb{
+  border-radius:10px;
+}
+.driver-fix-stacking{
+  position:relative;
+}
+.driver-navigation-btns {
+  line-height: 0;
+  font-size: 0; /* 顺带消除inline-block元素之间的水平空格 */
+}
